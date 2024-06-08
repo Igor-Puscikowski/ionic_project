@@ -1,0 +1,26 @@
+.display-box {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.display-item {
+    border: 1px solid #000000;
+    padding: 10px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.remove-image-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: red;
+    font-size: 24px;
+}
+

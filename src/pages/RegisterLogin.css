@@ -1,0 +1,45 @@
+
+
+
+
+.item-inner {
+    border-color: transparent;
+}
+.SignIn{
+    font-size: 35px;
+    padding: 0;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This takes the full height of the viewport */
+}
+
+.InputButton{
+    padding: 15px;
+
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: none;
+}
+
+.LoginButton{
+    padding: 15px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ion-padding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
